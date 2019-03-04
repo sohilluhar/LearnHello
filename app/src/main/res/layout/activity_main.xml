@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="5dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:text="Learn Hello in"
+        android:textSize="20sp"
+        android:gravity="center"
+
+     />
+
+
+    <Button
+        android:id="@+id/hindi"
+        android:textColor="@android:color/white"
+
+        android:text="Hindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:layout_margin="5dp"
+
+        />
+
+    <Button
+        android:id="@+id/tamil"
+        android:textColor="@android:color/white"
+        android:text="Tamil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/arabic"
+        android:textColor="@android:color/white"
+        android:text="Arabic"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow"
+        android:layout_margin="5dp"
+    />
+
+
+
+    <Button
+        android:id="@+id/russian"
+        android:textColor="@android:color/white"
+        android:text="Russian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/turquoise"
+        android:layout_margin="5dp"
+        />
+
+
+    <Button
+        android:id="@+id/korean"
+        android:textColor="@android:color/white"
+        android:text="Korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/japanese"
+        android:textColor="@android:color/white"
+        android:text="Japanese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:layout_margin="5dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/french"
+        android:textColor="@android:color/white"
+        android:text="French"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:id="@+id/chinese"
+        android:textColor="@android:color/white"
+        android:text="Chinese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+        />
+
+
+    <Button
+        android:id="@+id/latin"
+        android:textColor="@android:color/white"
+        android:text="Latin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/brown"
+        android:layout_margin="5dp" />
+
+</LinearLayout>
